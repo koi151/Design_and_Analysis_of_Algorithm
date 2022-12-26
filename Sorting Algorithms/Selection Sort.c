@@ -56,7 +56,7 @@ int main ()
     printf("%d]\n", test[n-1].key);
 
     Selection_Sort(test, n);
-    printf("All values after Selection sorting:\n[");
+    printf("All values after using Selection sort:\n[");
     for ( i = 0; i < n - 1; i++)
         printf("%d, ", test[i].key);
     printf("%d]\n", test[n-1].key);
